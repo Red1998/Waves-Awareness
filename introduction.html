@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./introduction.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="introduction3">
+      <header class="frame-header">
+        <div class="frame-child1"></div>
+        <img
+          class="image-9-icon2"
+          loading="lazy"
+          alt=""
+          src="./public/image-9@2x.png"
+          id="image9"
+        />
+
+        <nav class="frame-wrapper1">
+          <nav class="introduction-parent1">
+            <a class="introduction4">Introduction</a>
+            <a class="news3" id="newsText">News</a>
+            <a class="service3" id="serviceText">Service</a>
+            <div class="organization3" id="organizationText">Organization</div>
+            <a class="about-us5" id="aboutUsText">About us</a>
+            <a class="credit5" id="creditText">Credit</a>
+          </nav>
+        </nav>
+      </header>
+      <img
+        class="introduction-child"
+        alt=""
+        src="./public/rectangle-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var newsText = document.getElementById("newsText");
+      if (newsText) {
+        newsText.addEventListener("click", function (e) {
+          window.location.href = "./news.html";
+        });
+      }
+      
+      var serviceText = document.getElementById("serviceText");
+      if (serviceText) {
+        serviceText.addEventListener("click", function (e) {
+          window.location.href = "./services.html";
+        });
+      }
+      
+      var organizationText = document.getElementById("organizationText");
+      if (organizationText) {
+        organizationText.addEventListener("click", function (e) {
+          window.location.href = "./organization.html";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      
+      var creditText = document.getElementById("creditText");
+      if (creditText) {
+        creditText.addEventListener("click", function (e) {
+          window.location.href = "./credit.html";
+        });
+      }
+      </script>
+  </body>
+</html>
