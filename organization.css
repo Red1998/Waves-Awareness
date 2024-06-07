@@ -1,0 +1,235 @@
+.main-child {
+  height: 159px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.image-9-icon7 {
+  height: 139px;
+  width: 314px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-9-icon7,
+.introduction9,
+.news8 {
+  position: relative;
+  z-index: 1;
+}
+.introduction9 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.news8 {
+  display: inline-block;
+  min-width: 107px;
+}
+.news8,
+.service8 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.about-us10,
+.credit10,
+.organization9,
+.service8 {
+  position: relative;
+  z-index: 1;
+}
+.about-us10,
+.credit10 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.about-us10 {
+  white-space: nowrap;
+}
+.credit10 {
+  display: inline-block;
+  min-width: 116px;
+}
+.navigation {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}
+.main,
+.navigation-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigation-wrapper {
+  margin: 0;
+  width: 1278px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) 0 0;
+}
+.main {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-2xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+}
+.frame-child9,
+.image-21-icon {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child9 {
+  width: 1920px;
+  height: 921px;
+  background-color: var(--color-deepskyblue);
+  display: none;
+}
+.image-21-icon {
+  align-self: stretch;
+  height: 152px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.image-21-wrapper {
+  height: 224px;
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image-23-icon,
+.image-25-icon {
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.image-23-icon {
+  height: 295px;
+  width: 317px;
+}
+.image-25-icon {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-25-wrapper {
+  height: 236px;
+  width: 719px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-group,
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-group {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper4 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.image-27-icon1 {
+  width: 884px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.organization8,
+.rectangle-parent7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent7 {
+  align-self: stretch;
+  background-color: var(--color-deepskyblue);
+  padding: 59px var(--padding-19xl) 192px var(--padding-52xl);
+  box-sizing: border-box;
+  gap: 186px;
+  max-width: 100%;
+}
+.organization8 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1725px) {
+  .navigation-wrapper {
+    display: none;
+  }
+  .frame-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .rectangle-parent7 {
+    gap: 93px;
+    padding-left: var(--padding-16xl);
+    padding-top: var(--padding-19xl);
+    padding-bottom: 125px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navigation {
+    gap: var(--gap-8xl);
+  }
+  .rectangle-parent7 {
+    gap: var(--gap-27xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-parent7 {
+    padding-top: var(--padding-6xl);
+    padding-bottom: 81px;
+    box-sizing: border-box;
+  }
+}

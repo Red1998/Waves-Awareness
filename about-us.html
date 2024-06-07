@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./about-us.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-us2">
+      <header class="rectangle-container">
+        <div class="frame-inner"></div>
+        <img
+          class="image-9-icon1"
+          loading="lazy"
+          alt=""
+          src="./public/image-9@2x.png"
+          id="image9"
+        />
+
+        <nav class="frame-nav">
+          <nav class="introduction-container">
+            <a class="introduction2" id="introductionText">Introduction</a>
+            <a class="news2" id="newsText">News</a>
+            <a class="service2" id="serviceText">Service</a>
+            <div class="organization2" id="organizationText">Organization</div>
+            <a class="about-us3">About us</a>
+            <a class="credit4" id="creditText">Credit</a>
+          </nav>
+        </nav>
+      </header>
+      <footer class="frame-footer">
+        <div class="rectangle-div"></div>
+        <div class="about-us-wrapper">
+          <h1 class="about-us4">About us</h1>
+        </div>
+        <p class="wave-awareness-is">
+          Wave Awareness is a dedicated initiative aimed at raising global
+          consciousness about the importance of ocean sustainability. Our
+          mission is to combat ocean pollution and promote the conservation of
+          marine ecosystems through education, advocacy, and innovative
+          solutions. By highlighting the significant issues affecting our
+          oceans, such as plastic pollution and climate change, we strive to
+          inspire collective action and drive meaningful change. Join us in our
+          commitment to preserving the beauty and health of our planet's waters
+          for future generations.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var introductionText = document.getElementById("introductionText");
+      if (introductionText) {
+        introductionText.addEventListener("click", function (e) {
+          window.location.href = "./introduction.html";
+        });
+      }
+      
+      var newsText = document.getElementById("newsText");
+      if (newsText) {
+        newsText.addEventListener("click", function (e) {
+          window.location.href = "./news.html";
+        });
+      }
+      
+      var serviceText = document.getElementById("serviceText");
+      if (serviceText) {
+        serviceText.addEventListener("click", function (e) {
+          window.location.href = "./services.html";
+        });
+      }
+      
+      var organizationText = document.getElementById("organizationText");
+      if (organizationText) {
+        organizationText.addEventListener("click", function (e) {
+          window.location.href = "./organization.html";
+        });
+      }
+      
+      var creditText = document.getElementById("creditText");
+      if (creditText) {
+        creditText.addEventListener("click", function (e) {
+          window.location.href = "./credit.html";
+        });
+      }
+      </script>
+  </body>
+</html>

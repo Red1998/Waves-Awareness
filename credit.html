@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./credit.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="credit1">
+      <header class="rectangle-parent">
+        <div class="frame-child"></div>
+        <img
+          class="image-9-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-9@2x.png"
+          id="image9"
+        />
+
+        <nav class="frame-wrapper">
+          <nav class="introduction-group">
+            <a class="introduction1" id="introductionText">Introduction</a>
+            <a class="news1" id="newsText">News</a>
+            <a class="service1" id="serviceText">Service</a>
+            <div class="organization1" id="organizationText">Organization</div>
+            <a class="about-us1" id="aboutUsText">About us</a>
+            <a class="credit2">Credit</a>
+          </nav>
+        </nav>
+      </header>
+      <main class="rectangle-group">
+        <div class="frame-item"></div>
+        <h1 class="credit3">Credit</h1>
+        <section class="frame-container">
+          <div class="this-project-is-made-by-terrat-parent">
+            <h2 class="this-project-is">This project is made by Terratide.</h2>
+            <i class="terratide-is-a"
+              >Terratide is a two man team that desire to make an attempt to
+              change the awareness of the people about the waves.</i
+            >
+          </div>
+        </section>
+        <section class="frame-section">
+          <div class="frame-parent">
+            <div class="whatsapp-image-2024-05-07-at-1-parent">
+              <img
+                class="whatsapp-image-2024-05-07-at-1"
+                loading="lazy"
+                alt=""
+                src="./public/whatsapp-image-20240507-at-1257-1@2x.png"
+              />
+
+              <img
+                class="profile-1-icon"
+                loading="lazy"
+                alt=""
+                src="./public/profile-1@2x.png"
+              />
+            </div>
+            <div class="frame-div">
+              <div class="lim-ong-heng-parent">
+                <div class="lim-ong-heng">Lim Ong Heng</div>
+                <div class="chin-kai-chi">Chin Kai Chi</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var introductionText = document.getElementById("introductionText");
+      if (introductionText) {
+        introductionText.addEventListener("click", function (e) {
+          window.location.href = "./introduction.html";
+        });
+      }
+      
+      var newsText = document.getElementById("newsText");
+      if (newsText) {
+        newsText.addEventListener("click", function (e) {
+          window.location.href = "./news.html";
+        });
+      }
+      
+      var serviceText = document.getElementById("serviceText");
+      if (serviceText) {
+        serviceText.addEventListener("click", function (e) {
+          window.location.href = "./services.html";
+        });
+      }
+      
+      var organizationText = document.getElementById("organizationText");
+      if (organizationText) {
+        organizationText.addEventListener("click", function (e) {
+          window.location.href = "./organization.html";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      </script>
+  </body>
+</html>

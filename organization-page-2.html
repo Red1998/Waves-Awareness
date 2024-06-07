@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./organization-page-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="organization-page-2">
+      <header class="rectangle-parent4">
+        <div class="frame-child6"></div>
+        <img
+          class="image-9-icon5"
+          loading="lazy"
+          alt=""
+          src="./public/image-9@2x.png"
+          id="image9"
+        />
+
+        <nav class="right-content">
+          <nav class="menu-links">
+            <a class="introduction7" id="introductionText">Introduction</a>
+            <a class="news6" id="newsText">News</a>
+            <a class="service6" id="serviceText">Service</a>
+            <div class="organization6" id="organizationText">Organization</div>
+            <a class="about-us8" id="aboutUsText">About us</a>
+            <a class="credit8" id="creditText">Credit</a>
+          </nav>
+        </nav>
+      </header>
+      <main class="rectangle-parent5">
+        <div class="frame-child7"></div>
+        <img
+          class="image-24-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-24@2x.png"
+        />
+
+        <section class="iucn-international-union-for-wrapper">
+          <i class="iucn-international-union-for"
+            >IUCN (International Union for Conservation of Nature) is a
+            membership Union of government and civil society organisations.
+            Together, we work to advance sustainable development and create a
+            just world that values and conserves nature. </i
+          >
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var introductionText = document.getElementById("introductionText");
+      if (introductionText) {
+        introductionText.addEventListener("click", function (e) {
+          window.location.href = "./introduction.html";
+        });
+      }
+      
+      var newsText = document.getElementById("newsText");
+      if (newsText) {
+        newsText.addEventListener("click", function (e) {
+          window.location.href = "./news.html";
+        });
+      }
+      
+      var serviceText = document.getElementById("serviceText");
+      if (serviceText) {
+        serviceText.addEventListener("click", function (e) {
+          window.location.href = "./services.html";
+        });
+      }
+      
+      var organizationText = document.getElementById("organizationText");
+      if (organizationText) {
+        organizationText.addEventListener("click", function (e) {
+          window.location.href = "./organization.html";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      
+      var creditText = document.getElementById("creditText");
+      if (creditText) {
+        creditText.addEventListener("click", function (e) {
+          window.location.href = "./credit.html";
+        });
+      }
+      </script>
+  </body>
+</html>

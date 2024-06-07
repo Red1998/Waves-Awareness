@@ -1,0 +1,112 @@
+.ocean-pics-1-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.untitled-1-1-icon {
+  align-self: stretch;
+  height: 598px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.introduction,
+.news {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.news {
+  display: inline-block;
+  min-width: 107px;
+}
+.about-us,
+.credit,
+.organization,
+.service {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.about-us {
+  white-space: nowrap;
+}
+.credit {
+  display: inline-block;
+  min-width: 116px;
+}
+.introduction-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+  max-width: 100%;
+}
+.index,
+.index-inner {
+  display: flex;
+  box-sizing: border-box;
+}
+.index-inner {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xl);
+  max-width: 100%;
+}
+.index {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 97px 293px 145px 271px;
+  gap: 192px;
+  mix-blend-mode: hard-light;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1000px) {
+  .introduction-parent {
+    display: none;
+  }
+}
+@media screen and (max-width: 975px) {
+  .index {
+    gap: 96px;
+    padding-left: 135px;
+    padding-right: 146px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .introduction-parent {
+    gap: var(--gap-8xl);
+  }
+  .index {
+    gap: 48px;
+    padding-left: 67px;
+    padding-right: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}

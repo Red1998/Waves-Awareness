@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./services.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="services">
+      <header class="rectangle-parent10">
+        <div class="frame-child12"></div>
+        <img
+          class="image-9-icon10"
+          loading="lazy"
+          alt=""
+          src="./public/image-9@2x.png"
+          id="image9"
+        />
+
+        <nav class="frame-wrapper6">
+          <nav class="introduction-parent6">
+            <a class="introduction12" id="introductionText">Introduction</a>
+            <a class="news11" id="newsText">News</a>
+            <a class="service11">Service</a>
+            <div class="organization12" id="organizationText">Organization</div>
+            <a class="about-us13" id="aboutUsText">About us</a>
+            <a class="credit13" id="creditText">Credit</a>
+          </nav>
+        </nav>
+      </header>
+      <footer class="image-1-parent">
+        <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+        <section class="image-16-parent">
+          <img
+            class="image-16-icon"
+            loading="lazy"
+            alt=""
+            src="./public/image-20@2x.png"
+            id="image16"
+          />
+
+          <img
+            class="image-16-icon1"
+            alt=""
+            src="./public/image-19@2x.png"
+            id="image161"
+          />
+        </section>
+      </footer>
+    </div>
+
+    <script>
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var introductionText = document.getElementById("introductionText");
+      if (introductionText) {
+        introductionText.addEventListener("click", function (e) {
+          window.location.href = "./introduction.html";
+        });
+      }
+      
+      var newsText = document.getElementById("newsText");
+      if (newsText) {
+        newsText.addEventListener("click", function (e) {
+          window.location.href = "./news.html";
+        });
+      }
+      
+      var organizationText = document.getElementById("organizationText");
+      if (organizationText) {
+        organizationText.addEventListener("click", function (e) {
+          window.location.href = "./organization.html";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      
+      var creditText = document.getElementById("creditText");
+      if (creditText) {
+        creditText.addEventListener("click", function (e) {
+          window.location.href = "./credit.html";
+        });
+      }
+      
+      var image16 = document.getElementById("image16");
+      if (image16) {
+        image16.addEventListener("click", function (e) {
+          window.location.href = "./services-page-2.html";
+        });
+      }
+      
+      var image161 = document.getElementById("image161");
+      if (image161) {
+        image161.addEventListener("click", function (e) {
+          window.location.href = "./services-page-1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
